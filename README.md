@@ -32,6 +32,15 @@
 
 ## 编译
 
+推荐使用 Makefile：
+
+```bash
+make check-env
+make
+```
+
+也可以直接调用 nvcc：
+
 ```bash
 nvcc -O3 main.cu -o rtm
 ```
@@ -41,6 +50,8 @@ nvcc -O3 main.cu -o rtm
 默认参数运行：
 
 ```bash
+make run
+# 或 ./rtm
 ./rtm
 ```
 
