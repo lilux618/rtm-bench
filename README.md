@@ -52,6 +52,7 @@ nvcc -O3 main.cu -o rtm
 ```bash
 make run
 # 或 ./rtm
+./rtm
 ```
 
 指定参数示例：
